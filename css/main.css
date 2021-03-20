@@ -1,0 +1,178 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            html {
+                font-family: 'Open Sans', sans-serif;
+            }
+            /*Navbar Section*/
+            
+            a {
+                text-decoration: none;
+                color: yellow;
+            }
+            
+            #navbar {
+                color: yellow;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0.75rem;
+                height: 70px;
+            }
+            
+            #navbar ul {
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+            #navbar ul li a {
+                padding: 0.5rem;
+            }
+            
+            #navbar ul li a:hover {
+                background-color: #336ea1;
+                border-radius: 5px;
+            }
+            /*Home Section*/
+            
+            #Home {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 2rem;
+                border-bottom: 1px solid grey;
+            }
+            
+            #home img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 100%;
+            }
+            
+            #home .name h2 {
+                margin-bottom: 0.75rem;
+            }
+            
+            #home .name p {
+                opacity: 0.6;
+                font-style: italic;
+            }
+            /*Sections*/
+            
+            #sections {
+                color: yellow;
+                padding: 0.5rem;
+            }
+            
+            #sections .branches {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                overflow: hidden;
+            }
+            
+            #sections .branches .branch {
+                width: 20%;
+                text-align: center;
+                padding: 0.5rem;
+            }
+            
+            #sections .branches .branch:hover {
+                color: yellow;
+                opacity: 0.5;
+                border: 1px solid yellow;
+                border-radius: 5px;
+            }
+            /*History Section*/
+            
+            #history {
+                color: black;
+                font-weight: 550;
+                padding: 1rem;
+            }
+            
+            .shapes {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 0.5rem
+            }
+            
+            .history-shapes {
+                padding: 0.75rem;
+                text-align: justify;
+            }
+            /*Efsaneler*/
+            
+            #Legends {
+                color: black;
+                font-weight: 500;
+                padding: 0.5rem;
+            }
+            
+            #Legends .legends {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0.5rem;
+                margin-top: 1rem;
+            }
+            
+            #Legends .legends .legend {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0.5rem;
+                background-color: yellow;
+                color: blue;
+            }
+            
+            #Legends .legends .legend .article {
+                display: flex;
+                margin-left: 1rem;
+            }
+            
+            #Legends .legends .images {
+                width: 250px;
+                height: 250px;
+            }
+            /*Contact*/
+            
+            #Contact {
+                color: #fff;
+                padding: 1rem;
+            }
+            
+            #Contact .contact-form {
+                max-width: 700px;
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            #Contact .contact-form ul {
+                list-style-type: none;
+                display: flex;
+                margin-top: 1rem;
+                align-self: center;
+            }
+            
+            #Contact .contact-form ul li a {
+                padding: 1rem;
+                font-size: 2rem;
+            }
+            
+            #Contact .contact-form ul li a:hover {
+                opacity: 0.8;
+            }
+            
+            .scoial a {
+                color: white
+            }

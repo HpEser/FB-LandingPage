@@ -1,0 +1,35 @@
+    #navbar {
+        flex-direction: column;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        overflow: hidden;
+        height: 90px;
+    }
+    
+    #sections .branches {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    
+    #sections .branches .branch {
+        width: 100%;
+    }
+    
+    #History .shapes {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    #Legends .legends .legend {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #Legends .legends .legend .images {
+        margin: 1rem;
+    }
